@@ -4,5 +4,7 @@ module game.tetrisgame {
 
 
     opens game.tetrisgame to javafx.fxml;
+    opens game.tetrisgame.Controllers to javafx.fxml;
     exports game.tetrisgame;
+    exports game.tetrisgame.Controllers;
 }
